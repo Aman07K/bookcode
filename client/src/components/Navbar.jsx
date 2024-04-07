@@ -1,6 +1,21 @@
-import React from 'react'
+import React, { useEffect } from "react";
+import {useState} from "react";
 
 export default function () {
+  const [sticky,setSticky]=useState(false)
+  useEffect(()=>{
+      const handleScroll=()=>{
+        if(window.scrollY>0){
+          setSticky(true)
+        } else{
+          setSticky(false)
+        }
+      }
+      window.addEventListener('scroll',handleScroll)
+      return ()=>{
+        window.removeEventListener('scroll',handleScroll)
+      };
+    },[])
     const navItems = (
       <>
         <li>
@@ -19,8 +34,14 @@ export default function () {
     );
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div className="navbar bg-base-100">
+      <div
+        className={`max-w-screen-2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 ${
+          sticky
+            ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out"
+            : ""
+        }`}
+      >
+        <div className="navbar bg-white" style={{ maxWidth: "90%" }}>
           <div className="navbar-start">
             <div className="dropdown">
               <div
@@ -50,7 +71,12 @@ export default function () {
                 {navItems}
               </ul>
             </div>
-            <a className="text-2xl font-bolt cursor-pointer">bookStore</a>
+            <a
+              className="text-2xl cursor-pointer"
+              style={{ fontWeight: "bold" }}
+            >
+              saffron.<span className="text-pink-500">Diaries</span>
+            </a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
@@ -58,7 +84,11 @@ export default function () {
             </div>
             <div className="hidden md:block">
               <label className=" px-3 py-2 border rounded-md flex items-center gap-2">
-                <input type="text" className="grow outline-none" placeholder="Search" />
+                <input
+                  type="text"
+                  className="grow outline-none"
+                  placeholder="Search"
+                />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
@@ -100,7 +130,7 @@ export default function () {
               </svg>
             </label>
             <div className="">
-              <a className="bg-black text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300">
+              <a className="bg-pink-500 text-white px-3 py-2 rounded-md hover:bg-slate-800 duration-300">
                 Login
               </a>
             </div>

@@ -1,0 +1,100 @@
+[
+    {
+        "id":1,
+        "name":"The God of Small Things",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":100,
+        "category":"Fiction",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":2,
+        "name":"India After Gandhi",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":200,
+        "category":"Non-fiction",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":3,
+        "name":"The White Tiger",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":300,
+        "category":"Historical Fiction",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":4,
+        "name":"The Girl in Room 105",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":400,
+        "category":"Mystery/Thriller",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":5,
+        "name":"The Zoya Factor",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":500,
+        "category":"Romance",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":6,
+        "name":"The Krishna Key",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":600,
+        "category":"Science Fiction",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":7,
+        "name":"The Immortals of Meluha",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":700,
+        "category":"Fantasy",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":8,
+        "name":"My Experiments with Truth",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":800,
+        "category":"Biography/Autobiography",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":9,
+        "name":"The Monk Who Sold His Ferrari",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":900,
+        "category":"Self-help/Motivational",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":10,
+        "name":"Shantaram",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":1000,
+        "category":"Travel",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    },
+
+     {
+        "id":11,
+        "name":"India Cookbook",
+        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
+        "price":1100,
+        "category":"Cookbooks/Culinary",
+        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    }
+]
