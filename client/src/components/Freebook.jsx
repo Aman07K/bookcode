@@ -1,11 +1,29 @@
-import React from "react";
-import Slider from "react-slick";
+import React, { useEffect, useState } from "react";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Cards from "./Cards";
-import list from "../../public/list.json";
+import Slider from "react-slick";
 
+import axios from "axios";
+
+import Cards from "./Cards";
 function Freebook() {
+  const [book, setBook] = useState([]);
+  useEffect(() => {
+    const getBook = async () => {
+      try {
+        const res = await axios.get("http://localhost:4001/book");
+
+        const data = res.data.filter((data) => data.category === "Classic");
+        console.log(data);
+        setBook(data);
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    getBook();
+  }, []);
+
   var settings = {
     dots: true,
     infinite: true,
@@ -15,7 +33,6 @@ function Freebook() {
     initialSlide: 0,
     autoplay: true,
     autoplaySpeed: 1500,
-    arrows: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -43,27 +60,27 @@ function Freebook() {
       },
     ],
   };
-
   return (
-    <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
-      <div>
-        <h1 className="font-semibold text-xl pb-2">Free offered Courses</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium
-          veritatis alias partatur ad dolor repudiandae eligendi corporis nulla
-          non suscipit, iure neque earum?
-        </p>
-      </div>
+    <>
+      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
+        <div>
+          <h1 className="font-semibold text-xl pb-2">Free Offered Courses</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
+            corporis nulla non suscipit, iure neque earum?
+          </p>
+        </div>
 
-      <div>
-        <Slider {...settings}>
-          {list.map((item) => (
-            <Cards item={item} key={item.id} />
-          ))}
-        </Slider>
+        <div>
+          <Slider {...settings}>
+            {book.map((item) => (
+              <Cards item={item} key={item.id} />
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
-
 export default Freebook;

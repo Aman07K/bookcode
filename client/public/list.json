@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Harry Potter and the Philosopher's Stone",
-        "category": "Fantasy",
+        "category": "Classic",
         "description": "J.K. Rowling's magical journey into the wizarding world.",
         "price": 12.99,
         "image": "https://img.freepik.com/free-photo/night-falls-spooky-gothic-skyscraper-generated-by-ai_188544-21819.jpg?w=1060"
@@ -34,7 +34,7 @@
     {
         "id": 5,
         "name": "The Alchemist",
-        "category": "Philosophical",
+        "category": "Classic",
         "description": "Paulo Coelho's allegorical journey of self-discovery and destiny.",
         "price": 11.99,
         "image": "https://img.freepik.com/free-photo/tree-covered-with-snow-winter-storm-day-forest-mountains_1232-4315.jpg?w=996"
@@ -42,7 +42,7 @@
     {
         "id": 6,
         "name": "1984",
-        "category": "Dystopian",
+        "category": "Classic",
         "description": "George Orwell's chilling portrayal of a totalitarian society.",
         "price": 9.49,
         "image": "https://img.freepik.com/free-vector/dystopia-1984-text-effect_52683-37002.jpg?w=996"
@@ -50,7 +50,7 @@
     {
         "id": 7,
         "name": "The Catcher in the Rye",
-        "category": "Fiction",
+        "category": "Classic",
         "description": "J.D. Salinger's exploration of teenage angst and rebellion.",
         "price": 7.99,
         "image": "https://img.freepik.com/free-photo/creative-collage-mars-planet-with-astronaut_23-2149488965.jpg?w=1060"
@@ -58,7 +58,7 @@
     {
         "id": 8,
         "name": "The Hobbit",
-        "category": "Fantasy",
+        "category": "Classic",
         "description": "J.R.R. Tolkien's epic adventure of Bilbo Baggins and the dwarves.",
         "price": 10.49,
         "image": "https://img.freepik.com/free-vector/hobbit-house-forest_1308-114244.jpg?w=1060"
@@ -66,7 +66,7 @@
     {
         "id": 9,
         "name": "The Da Vinci Code",
-        "category": "Thriller",
+        "category": "Classic",
         "description": "Dan Brown's gripping puzzle of art, religion, and conspiracy.",
         "price": 8.99,
         "image": "https://img.freepik.com/free-vector/hand-drawn-caricature-illustration_23-2149827774.jpg?w=740"
@@ -74,7 +74,7 @@
     {
         "id": 10,
         "name": "The Kite Runner",
-        "category": "Historical",
+        "category": "Classic",
         "description": "Khaled Hosseini's tale of friendship, betrayal, and redemption in Afghanistan.",
         "price": 11.99,
         "image": "https://img.freepik.com/free-vector/kites-yellow-frame-with-text-space-design_1017-22998.jpg?w=740"
@@ -82,7 +82,7 @@
     {
         "id": 11,
         "name": "Memoirs of a Geisha",
-        "category": "Historical",
+        "category": "Classic",
         "description": "Arthur Golden's evocative portrayal of a geisha's life in pre-war Japan.",
         "price": 10.99,
         "image": "https://img.freepik.com/free-photo/clock-ticks-sands-slip-sun-sets-success-awaits-generative-ai_188544-9602.jpg?w=1060"
