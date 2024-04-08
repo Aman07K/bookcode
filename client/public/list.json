@@ -1,100 +1,90 @@
 [
     {
-        "id":1,
-        "name":"The God of Small Things",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":100,
-        "category":"Fiction",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+        "id": 1,
+        "name": "The Great Gatsby",
+        "category": "Classic",
+        "description": "F. Scott Fitzgerald's tale of wealth, love, and the American Dream.",
+        "price": 10.99,
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?w=826"
     },
-
-     {
-        "id":2,
-        "name":"India After Gandhi",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":200,
-        "category":"Non-fiction",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 2,
+        "name": "Harry Potter and the Philosopher's Stone",
+        "category": "Fantasy",
+        "description": "J.K. Rowling's magical journey into the wizarding world.",
+        "price": 12.99,
+        "image": "https://img.freepik.com/free-photo/night-falls-spooky-gothic-skyscraper-generated-by-ai_188544-21819.jpg?w=1060"
     },
-
-     {
-        "id":3,
-        "name":"The White Tiger",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":300,
-        "category":"Historical Fiction",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 3,
+        "name": "To Kill a Mockingbird",
+        "category": "Classic",
+        "description": "Harper Lee's poignant tale of racial injustice in the American South.",
+        "price": 8.99,
+        "image": "https://img.freepik.com/free-photo/galactic-night-sky-astronomy-science-combined-generative-ai_188544-9656.jpg?w=1060"
     },
-
-     {
-        "id":4,
-        "name":"The Girl in Room 105",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":400,
-        "category":"Mystery/Thriller",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 4,
+        "name": "Pride and Prejudice",
+        "category": "Classic",
+        "description": "Jane Austen's timeless romance set in Regency England.",
+        "price": 9.99,
+        "image": "https://img.freepik.com/free-vector/grunge-pride-flag-background_1048-16185.jpg?w=996"
     },
-
-     {
-        "id":5,
-        "name":"The Zoya Factor",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":500,
-        "category":"Romance",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 5,
+        "name": "The Alchemist",
+        "category": "Philosophical",
+        "description": "Paulo Coelho's allegorical journey of self-discovery and destiny.",
+        "price": 11.99,
+        "image": "https://img.freepik.com/free-photo/tree-covered-with-snow-winter-storm-day-forest-mountains_1232-4315.jpg?w=996"
     },
-
-     {
-        "id":6,
-        "name":"The Krishna Key",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":600,
-        "category":"Science Fiction",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 6,
+        "name": "1984",
+        "category": "Dystopian",
+        "description": "George Orwell's chilling portrayal of a totalitarian society.",
+        "price": 9.49,
+        "image": "https://img.freepik.com/free-vector/dystopia-1984-text-effect_52683-37002.jpg?w=996"
     },
-
-     {
-        "id":7,
-        "name":"The Immortals of Meluha",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":700,
-        "category":"Fantasy",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 7,
+        "name": "The Catcher in the Rye",
+        "category": "Fiction",
+        "description": "J.D. Salinger's exploration of teenage angst and rebellion.",
+        "price": 7.99,
+        "image": "https://img.freepik.com/free-photo/creative-collage-mars-planet-with-astronaut_23-2149488965.jpg?w=1060"
     },
-
-     {
-        "id":8,
-        "name":"My Experiments with Truth",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":800,
-        "category":"Biography/Autobiography",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 8,
+        "name": "The Hobbit",
+        "category": "Fantasy",
+        "description": "J.R.R. Tolkien's epic adventure of Bilbo Baggins and the dwarves.",
+        "price": 10.49,
+        "image": "https://img.freepik.com/free-vector/hobbit-house-forest_1308-114244.jpg?w=1060"
     },
-
-     {
-        "id":9,
-        "name":"The Monk Who Sold His Ferrari",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":900,
-        "category":"Self-help/Motivational",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 9,
+        "name": "The Da Vinci Code",
+        "category": "Thriller",
+        "description": "Dan Brown's gripping puzzle of art, religion, and conspiracy.",
+        "price": 8.99,
+        "image": "https://img.freepik.com/free-vector/hand-drawn-caricature-illustration_23-2149827774.jpg?w=740"
     },
-
-     {
-        "id":10,
-        "name":"Shantaram",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":1000,
-        "category":"Travel",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 10,
+        "name": "The Kite Runner",
+        "category": "Historical",
+        "description": "Khaled Hosseini's tale of friendship, betrayal, and redemption in Afghanistan.",
+        "price": 11.99,
+        "image": "https://img.freepik.com/free-vector/kites-yellow-frame-with-text-space-design_1017-22998.jpg?w=740"
     },
-
-     {
-        "id":11,
-        "name":"India Cookbook",
-        "title":"Lorem, ipsum dolar sit amet comsecteture adipisicing elit.",
-        "price":1100,
-        "category":"Cookbooks/Culinary",
-        "image":"https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?w=740"
+    {
+        "id": 11,
+        "name": "Memoirs of a Geisha",
+        "category": "Historical",
+        "description": "Arthur Golden's evocative portrayal of a geisha's life in pre-war Japan.",
+        "price": 10.99,
+        "image": "https://img.freepik.com/free-photo/clock-ticks-sands-slip-sun-sets-success-awaits-generative-ai_188544-9602.jpg?w=1060"
     }
 ]
