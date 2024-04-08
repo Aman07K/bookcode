@@ -26,7 +26,7 @@ function Signup() {
               >
                 ✕
               </Link>
-              <h3 className="font-bold text-lg">signup</h3>
+              <h3 className="font-bold text-lg">Sign-up</h3>
               <div className="mt-4 space-y-2">
                 <span>Name</span>
                 <br />
