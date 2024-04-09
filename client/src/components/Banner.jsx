@@ -11,9 +11,11 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-xl">
-              Lorem, ipsum dolar sit amet comsecteture adipisicing elit. Dolor,
-              et totam. Tempore amet atque atque expedita, quae corrupti totam
-              sed pariatur corporis at veniam est voluptas animi!
+               Where every book is a portal to a world of
+              wonder and imagination. From spellbinding fantasies to riveting
+              mysteries, our curated collection promises adventure for readers
+              of all ages. Let the magic of storytelling ignite your imagination
+              as you explore our shelves. Welcome to a literary wonderland! 📚
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
@@ -28,7 +30,7 @@ function Banner() {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Secondary</button>
+          <button className="btn mt-6 text-pink-500">Get Started!</button>
         </div>
         <div className="w-full md:w-1/2">
           <img
@@ -48,4 +50,4 @@ function Banner() {
     
 }
 
-export default Banner
+export default Banner;
