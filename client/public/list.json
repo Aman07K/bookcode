@@ -5,7 +5,7 @@
         "category": "Classic",
         "description": "F. Scott Fitzgerald's tale of wealth, love, and the American Dream.",
         "price": 10.99,
-        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?w=826"
+        "image": "public/Book-1.jpeg"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "category": "Classic",
         "description": "J.K. Rowling's magical journey into the wizarding world.",
         "price": 12.99,
-        "image": "https://img.freepik.com/free-photo/night-falls-spooky-gothic-skyscraper-generated-by-ai_188544-21819.jpg?w=1060"
+        "image": "public/Book-2.jpeg"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "category": "Classic",
         "description": "Harper Lee's poignant tale of racial injustice in the American South.",
         "price": 8.99,
-        "image": "https://img.freepik.com/free-photo/galactic-night-sky-astronomy-science-combined-generative-ai_188544-9656.jpg?w=1060"
+        "image": "public/Book-3.jpeg"
     },
     {
         "id": 4,
@@ -29,7 +29,7 @@
         "category": "Classic",
         "description": "Jane Austen's timeless romance set in Regency England.",
         "price": 9.99,
-        "image": "https://img.freepik.com/free-vector/grunge-pride-flag-background_1048-16185.jpg?w=996"
+        "image": "public/Book-4.jpeg"
     },
     {
         "id": 5,
@@ -37,7 +37,7 @@
         "category": "Classic",
         "description": "Paulo Coelho's allegorical journey of self-discovery and destiny.",
         "price": 11.99,
-        "image": "https://img.freepik.com/free-photo/tree-covered-with-snow-winter-storm-day-forest-mountains_1232-4315.jpg?w=996"
+        "image": "public/Book-5.png"
     },
     {
         "id": 6,
@@ -45,7 +45,7 @@
         "category": "Classic",
         "description": "George Orwell's chilling portrayal of a totalitarian society.",
         "price": 9.49,
-        "image": "https://img.freepik.com/free-vector/dystopia-1984-text-effect_52683-37002.jpg?w=996"
+        "image": "public/Book-6.png"
     },
     {
         "id": 7,
@@ -53,7 +53,7 @@
         "category": "Classic",
         "description": "J.D. Salinger's exploration of teenage angst and rebellion.",
         "price": 7.99,
-        "image": "https://img.freepik.com/free-photo/creative-collage-mars-planet-with-astronaut_23-2149488965.jpg?w=1060"
+        "image": "public/Book-7.jpg"
     },
     {
         "id": 8,
@@ -61,7 +61,7 @@
         "category": "Classic",
         "description": "J.R.R. Tolkien's epic adventure of Bilbo Baggins and the dwarves.",
         "price": 10.49,
-        "image": "https://img.freepik.com/free-vector/hobbit-house-forest_1308-114244.jpg?w=1060"
+        "image": "public/Book-8.png"
     },
     {
         "id": 9,
@@ -69,7 +69,7 @@
         "category": "Classic",
         "description": "Dan Brown's gripping puzzle of art, religion, and conspiracy.",
         "price": 8.99,
-        "image": "https://img.freepik.com/free-vector/hand-drawn-caricature-illustration_23-2149827774.jpg?w=740"
+        "image": "public/Book-9.jpeg"
     },
     {
         "id": 10,
@@ -77,7 +77,7 @@
         "category": "Classic",
         "description": "Khaled Hosseini's tale of friendship, betrayal, and redemption in Afghanistan.",
         "price": 11.99,
-        "image": "https://img.freepik.com/free-vector/kites-yellow-frame-with-text-space-design_1017-22998.jpg?w=740"
+        "image": "public/Book-10.jpeg"
     },
     {
         "id": 11,
@@ -85,6 +85,6 @@
         "category": "Classic",
         "description": "Arthur Golden's evocative portrayal of a geisha's life in pre-war Japan.",
         "price": 10.99,
-        "image": "https://img.freepik.com/free-photo/clock-ticks-sands-slip-sun-sets-success-awaits-generative-ai_188544-9602.jpg?w=1060"
+        "image": "public/Book-11.jpeg"
     }
 ]
